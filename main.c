@@ -32,7 +32,6 @@ int main(int argc, char **argv){
   int j;
   for(j=0;j<28;j++)
   {
-    printf("%i \n",j);
     VolumenesFinitos(U_state);
   }
 
