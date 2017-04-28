@@ -228,7 +228,6 @@ void VolumenesFinitos( U_grid *U)
   int i;
   int Nc=U->N_cells;
   FLOAT dt=0.000001;
-  printf("%f %s\n",dt,"  dt");
   for(i=0;i<Nc;i++)
     {
       U_aux->U1[i]= U->U1[i];
