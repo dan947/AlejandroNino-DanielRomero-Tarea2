@@ -66,7 +66,7 @@ int main(int argc, char **argv){
       }
     }
    casillas = 2*((2*r)*(2*r)) + 2*((2*(r-2))*(2+r)) + 2*( (2*(r-2))*(2*(r-2)));
-   printf("%f %f \n",sum/casillas,r*10.0);
+   printf("%f %f \n",sum/casillas,0.000001*27);
   }
   return 0;
 }
